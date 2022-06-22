@@ -9,7 +9,7 @@ body{
     background-color:#1F2937;
     display: flex;
     justify-content: space-around;
-    height: auto;
+    
 }
 .Logo{
     font-size: 24px;
@@ -32,32 +32,55 @@ a{
     text-decoration: none;
 }
 
-img{
+ .sus1{
     max-height: 100px;
     max-width: 100px;
 }
 
 .container2{
     background-color: #1F2937;
+    height: 450px;
     display: flex;
+    justify-content:center;
     align-items: center;
-    flex-wrap: wrap;
 
 }
 .header2{
     font-weight: bolder;
     font-size: 48px;
     color:#f9faf8;
-    max-width: 500px;
+    max-width: 460px;
 }
 .text{
     font-size: 18px;
     color: #E5E7eb;
+    max-width: 460px;
 }
 .signup{
     background-color: #3882F6;
     color: #E5E7eb;
     font-size: 18px;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 10px;
+    padding: 7px 25px;
+    white-space: nowrap;
+    margin-right: 340px;
+    margin-top: 10px;
+
+}
+.group2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.widecontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+.wide{
+    width: 500px;
 }
